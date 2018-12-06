@@ -1,6 +1,6 @@
 @font-face {
 	font-family: firasansregular;
-	src:  url('fonts/Firasansregular.ttf');
+	src:  url('../fonts/Firasansregular.ttf');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -9,9 +9,9 @@
   font-family: 'icomoon';
   src:  url('fonts/icomoon.eot?v2wz5');
   src:  url('fonts/icomoon.eot?v2wz5#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?v2wz5') format('truetype'),
-    url('fonts/icomoon.woff?v2wz5') format('woff'),
-    url('fonts/icomoon.svg?v2wz5#icomoon') format('svg');
+    url('../fonts/icomoon.ttf?v2wz5') format('truetype'),
+    url('../fonts/icomoon.woff?v2wz5') format('woff'),
+    url('../fonts/icomoon.svg?v2wz5#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -283,27 +283,27 @@ html {
 }
 
 .soc-link-fb {
-	background-image: url("icons/Facebook-mono.png")
+	background-image: url("../icons/Facebook-mono.png")
 }
 
 .soc-link-vk {
-	background-image: url("icons/vk-mono.png")
+	background-image: url("../icons/vk-mono.png")
 }
 
 .soc-link-tw {
-	background-image: url("icons/Twitter-mono.png")
+	background-image: url("../icons/Twitter-mono.png")
 }
 
 .soc-link-fb:hover {
-	background-image: url("icons/Facebook.png")
+	background-image: url("../icons/Facebook.png")
 }
 
 .soc-link-vk:hover {
-	background-image: url("icons/vk.png")
+	background-image: url("../icons/vk.png")
 }
 
 .soc-link-tw:hover {
-	background-image: url("icons/Twitter.png")
+	background-image: url("../icons/Twitter.png")
 }
 
 

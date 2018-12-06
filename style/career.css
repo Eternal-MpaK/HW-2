@@ -75,11 +75,11 @@
 	content: "";
 	width: 20px;
 	height: 20px;
-	background-image: url('images/circle.png');
+	background-image: url('../images/circle.png');
 }
 
 .career_item:hover:after {
-  background-image: url('images/circle_active.png');
+  background-image: url('../images/circle_active.png');
 }
 
 .career_item:hover {

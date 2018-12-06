@@ -1,0 +1,46 @@
+@media screen and (max-width: 992px) {
+	
+	.wrapper {
+		margin-bottom: 50px;
+	}
+
+	.main {
+		width: 100%;
+	}
+
+	.portfolio_title h1 {
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.portfolio_main {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.porfolio_item a {
+		margin-left: 0;
+		margin-right: 20px;
+	}
+
+	.portfolio_img,
+	.portfolio_name,
+	.portfolio_description,
+	.portfolio_type {
+		text-align: left;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
+		.portfolio_item {
+		display: inline-block;
+		text-align: center;
+
+	}
+}
+
+	

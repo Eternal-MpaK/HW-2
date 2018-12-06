@@ -1,0 +1,48 @@
+@media screen and (max-width: 992px) {
+	
+	.main {
+		width: 100%;
+		padding-left: 0;
+	}
+
+	.career_title h1 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.career_content {
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	
+	.career_content {
+		width: 90%;
+	}
+
+	.career_list {
+		margin-left: 0;
+	}
+
+	.career_place {
+		font-size: 18px;
+	}
+
+	.career_item {
+		font-size: 16px;
+	}
+
+
+	.career_item:before, .career_item:after {
+		display: none;
+ }
+
+	.career_mark {
+		display: none;
+	}
+
+
+}
