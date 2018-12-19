@@ -7,11 +7,11 @@
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?v2wz5');
-  src:  url('fonts/icomoon.eot?v2wz5#iefix') format('embedded-opentype'),
-    url('../fonts/icomoon.ttf?v2wz5') format('truetype'),
-    url('../fonts/icomoon.woff?v2wz5') format('woff'),
-    url('../fonts/icomoon.svg?v2wz5#icomoon') format('svg');
+  src:  url('../fonts/icomoon.eot?ry8nty');
+  src:  url('../fonts/icomoon.eot?ry8nty#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?ry8nty') format('truetype'),
+    url('../fonts/icomoon.woff?ry8nty') format('woff'),
+    url('../fonts/icomoon.svg?ry8nty#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -34,8 +34,14 @@
 .icon-download:before {
   content: "\f019";
 }
+.icon-phone:before {
+  content: "\f095";
+}
 .icon-briefcase:before {
   content: "\f0b1";
+}
+.icon-envelope:before {
+  content: "\f0e0";
 }
 .icon-desktop:before {
   content: "\f108";
@@ -48,6 +54,9 @@
 }
 .icon-rocket:before {
   content: "\f135";
+}
+.icon-skype:before {
+  content: "\f17e";
 }
 .icon-user-secret:before {
   content: "\f21b";
@@ -101,7 +110,7 @@ html {
 
 .ava_sm {
 	border-radius: 100px;
-    border: 2px solid #d4d4d4;
+	border: 2px solid #d4d4d4;
 }
 
 .profile-name {
@@ -110,6 +119,10 @@ html {
 	vertical-align: middle;
 	font-size: 18px;
 	margin-left: 20px;
+}
+
+.contacts {
+	position: relative;
 }
 
 .contacts
@@ -121,7 +134,7 @@ html {
 	line-height: 70px;
 	font-size: 18px;
 	font-weight: bold;
-	background-image: url('images/Dot_line.png');
+	background-image: url('../images/Dot_line.png');
 	background-repeat: no-repeat;
 	background-position: center 45px;
 	text-decoration: none;
@@ -132,11 +145,49 @@ html {
 .contacts
 .contacts-link:hover {
 	color: #e85f61;
-	background-image: url('images/Dot_line_red.png');
+	background-image: url('../images/Dot_line_red.png');
 }
 
-.contacts-link:hover  {
-	
+.contacts:hover .contacts_list {
+	display: block;
+}
+
+.contacts_list {
+	display: none;
+	position: absolute;
+	right: -35px;
+	top: 40px;
+	list-style: none;
+	border: 1px solid #dedede;
+	border-radius: 10px;
+	background-color: #fff;
+	width: 190px;
+	padding: 0;
+}
+
+.contacts_list:before {
+	content: "";
+	position: absolute;
+	top: -10px;
+	right: calc(50% - 10px);
+	width: 20px;
+	height: 12px;
+	background-image: url('../images/triangle.png');
+}
+
+.contacts_item {
+	margin: 10px;
+	font-size: 16px;
+}
+
+.contacts_item_link {
+	text-decoration: none;
+	color: #414141;
+}
+
+
+.contacts-link-img {
+	color: #33c2e4;
 }
 
 .section {
@@ -270,6 +321,7 @@ html {
 .soc {
 	float: right;
 	margin-top: 10px;
+
 }
 
 .soc-list {
@@ -280,6 +332,7 @@ html {
 	display: inline-block;
 	width: 31px;
 	height: 30px;
+	transition: .3s;
 }
 
 .soc-link-fb {
